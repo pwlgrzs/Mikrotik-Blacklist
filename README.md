@@ -12,7 +12,7 @@ Run following to your MT device with not less that 7d schedule:
 
 Download script:  
 `/tool fetch url="https://raw.githubusercontent.com/pwlgrzs/Mikrotik-Blocklist/master/blacklist.rsc" mode=https;
-:log info "Blocklist downloaded";`  
+:log info "Blacklist downloaded";`  
 Install script:  
 `/ip firewall address-list remove [find where comment="blacklist"]
 /import file-name=blacklist.rsc;
