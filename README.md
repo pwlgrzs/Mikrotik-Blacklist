@@ -18,6 +18,6 @@ Install script:
 
 You'll also need firewall rule:
 `/ip firewall filter add chain=input action=drop connection-state=new src-address-list=blacklist in-interface=<REPLACE>`  
-**Note: Replace in-interface name with one you have configured**
+*Note: Replace above in-interface name with one you have configured*
 ## TODO
  - Add more sources.
