@@ -16,7 +16,7 @@ Install script:
 `/ip firewall address-list remove [find where comment="blacklist"]  
 /import file-name=blacklist.rsc`
 
-You'll also need firewall rule:
+You'll also need firewall rule:  
 `/ip firewall filter add chain=input action=drop connection-state=new src-address-list=blacklist in-interface=<REPLACE>`  
 *Note: Replace above in-interface name with one you have configured*
 ## TODO
