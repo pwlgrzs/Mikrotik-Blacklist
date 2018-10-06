@@ -22,6 +22,6 @@ You'll also need firewall rule:
 Check out more detailed instructions [here](https://pawelgrzes.pl/blog/mikrotik-blacklist).
 
 You can also import install.rsc file, it will do all of above for you.  
-Upload to MT and `run /import file-name=install.rsc` in terminal.
+Upload to MT and `run /import file-name=install.rsc` in terminal. You still need to manually add firewall rule.
 ## TODO
  - Add more sources.
