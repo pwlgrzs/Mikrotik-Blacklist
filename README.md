@@ -19,5 +19,7 @@ Install script:
 You'll also need firewall rule:  
 `/ip firewall filter add chain=input action=drop connection-state=new src-address-list=blacklist in-interface=<REPLACE>`  
 *Note: Replace above in-interface name with one you have configured*
+
+Check out more detailed instructions [here](https://pawelgrzes.pl/blog/mikrotik-blacklist).
 ## TODO
  - Add more sources.
