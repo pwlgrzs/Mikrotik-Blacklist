@@ -1,4 +1,4 @@
-# Generated on Fri Oct  5 23:45:35 CEST 2018
+# Generated on Mon Oct  8 00:31:39 CEST 2018
 /ip firewall address-list
 add list=blacklist address=101.192.0.0/14 comment=blacklist
 add list=blacklist address=101.202.0.0/16 comment=blacklist
@@ -32,8 +32,6 @@ add list=blacklist address=104.153.112.0/21 comment=blacklist
 add list=blacklist address=104.153.244.0/22 comment=blacklist
 add list=blacklist address=104.219.88.0/21 comment=blacklist
 add list=blacklist address=104.255.56.0/21 comment=blacklist
-add list=blacklist address=107.170.204.0/32 comment=blacklist
-add list=blacklist address=107.170.204.255/32 comment=blacklist
 add list=blacklist address=107.182.240.0/20 comment=blacklist
 add list=blacklist address=108.166.224.0/19 comment=blacklist
 add list=blacklist address=109.234.0.0/21 comment=blacklist
@@ -351,8 +349,6 @@ add list=blacklist address=185.150.84.0/22 comment=blacklist
 add list=blacklist address=185.151.48.0/22 comment=blacklist
 add list=blacklist address=185.152.248.0/22 comment=blacklist
 add list=blacklist address=185.152.36.0/22 comment=blacklist
-add list=blacklist address=185.153.198.0/32 comment=blacklist
-add list=blacklist address=185.153.198.255/32 comment=blacklist
 add list=blacklist address=185.154.20.0/22 comment=blacklist
 add list=blacklist address=185.156.88.0/21 comment=blacklist
 add list=blacklist address=185.156.92.0/22 comment=blacklist
@@ -516,13 +512,13 @@ add list=blacklist address=192.67.16.0/24 comment=blacklist
 add list=blacklist address=192.86.85.0/24 comment=blacklist
 add list=blacklist address=192.88.74.0/24 comment=blacklist
 add list=blacklist address=193.105.171.0/24 comment=blacklist
+add list=blacklist address=193.106.31.0/32 comment=blacklist
+add list=blacklist address=193.106.31.255/32 comment=blacklist
 add list=blacklist address=193.139.0.0/16 comment=blacklist
 add list=blacklist address=193.177.64.0/18 comment=blacklist
 add list=blacklist address=193.243.0.0/17 comment=blacklist
 add list=blacklist address=193.25.48.0/20 comment=blacklist
 add list=blacklist address=193.26.64.0/19 comment=blacklist
-add list=blacklist address=193.29.13.0/32 comment=blacklist
-add list=blacklist address=193.29.13.255/32 comment=blacklist
 add list=blacklist address=193.46.172.0/22 comment=blacklist
 add list=blacklist address=193.46.202.0/24 comment=blacklist
 add list=blacklist address=193.84.132.0/22 comment=blacklist
@@ -552,8 +548,6 @@ add list=blacklist address=196.242.0.0/15 comment=blacklist
 add list=blacklist address=196.244.0.0/15 comment=blacklist
 add list=blacklist address=196.247.0.0/16 comment=blacklist
 add list=blacklist address=196.42.128.0/17 comment=blacklist
-add list=blacklist address=196.52.43.0/32 comment=blacklist
-add list=blacklist address=196.52.43.255/32 comment=blacklist
 add list=blacklist address=196.63.0.0/16 comment=blacklist
 add list=blacklist address=197.154.0.0/16 comment=blacklist
 add list=blacklist address=197.159.80.0/21 comment=blacklist
@@ -773,8 +767,6 @@ add list=blacklist address=207.226.192.0/20 comment=blacklist
 add list=blacklist address=207.32.128.0/19 comment=blacklist
 add list=blacklist address=207.32.208.0/20 comment=blacklist
 add list=blacklist address=207.45.224.0/20 comment=blacklist
-add list=blacklist address=208.100.26.0/32 comment=blacklist
-add list=blacklist address=208.100.26.255/32 comment=blacklist
 add list=blacklist address=208.117.88.0/22 comment=blacklist
 add list=blacklist address=208.117.92.0/24 comment=blacklist
 add list=blacklist address=208.12.64.0/19 comment=blacklist
@@ -857,6 +849,8 @@ add list=blacklist address=45.114.224.0/22 comment=blacklist
 add list=blacklist address=45.117.208.0/22 comment=blacklist
 add list=blacklist address=45.121.204.0/22 comment=blacklist
 add list=blacklist address=45.127.36.0/22 comment=blacklist
+add list=blacklist address=45.227.255.0/32 comment=blacklist
+add list=blacklist address=45.227.255.255/32 comment=blacklist
 add list=blacklist address=45.4.128.0/22 comment=blacklist
 add list=blacklist address=45.4.136.0/22 comment=blacklist
 add list=blacklist address=45.6.48.0/22 comment=blacklist
@@ -877,6 +871,8 @@ add list=blacklist address=46.3.0.0/20 comment=blacklist
 add list=blacklist address=49.238.64.0/18 comment=blacklist
 add list=blacklist address=49.8.0.0/14 comment=blacklist
 add list=blacklist address=5.101.221.0/24 comment=blacklist
+add list=blacklist address=5.101.40.0/32 comment=blacklist
+add list=blacklist address=5.101.40.255/32 comment=blacklist
 add list=blacklist address=5.134.128.0/19 comment=blacklist
 add list=blacklist address=5.157.0.0/18 comment=blacklist
 add list=blacklist address=5.188.10.0/23 comment=blacklist
@@ -918,10 +914,14 @@ add list=blacklist address=79.110.22.0/24 comment=blacklist
 add list=blacklist address=79.110.25.0/24 comment=blacklist
 add list=blacklist address=79.133.107.0/24 comment=blacklist
 add list=blacklist address=79.173.104.0/21 comment=blacklist
+add list=blacklist address=80.82.64.0/32 comment=blacklist
+add list=blacklist address=80.82.64.255/32 comment=blacklist
 add list=blacklist address=81.94.43.0/24 comment=blacklist
 add list=blacklist address=83.175.0.0/18 comment=blacklist
 add list=blacklist address=84.238.160.0/22 comment=blacklist
 add list=blacklist address=85.121.39.0/24 comment=blacklist
+add list=blacklist address=85.93.20.0/32 comment=blacklist
+add list=blacklist address=85.93.20.255/32 comment=blacklist
 add list=blacklist address=85.93.5.0/24 comment=blacklist
 add list=blacklist address=86.55.40.0/23 comment=blacklist
 add list=blacklist address=86.55.42.0/23 comment=blacklist
