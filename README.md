@@ -4,6 +4,7 @@ This is a blocklist I use with on my Mikrotik router to block all connections fr
 Every 7 days I pull lists from:
 - Spamhaus (DROP & EDROP)
 - dShield  
+- blacklist.de (all.txt)
 
 and reformat it to allow automatic import to MT routers.
 
