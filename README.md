@@ -5,6 +5,7 @@ Every 7 days I pull lists from:
 - Spamhaus (DROP & EDROP)
 - dShield  
 - blacklist.de (all.txt)
+- EmergingThreats compromised IP
 
 and reformat it to allow automatic import to MT routers.
 
