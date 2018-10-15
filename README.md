@@ -1,7 +1,7 @@
 # Mikrotik-Blacklist
 This is a blocklist I use with on my Mikrotik router to block all connections from known spam/criminal/etc. networks.
 
-Every 7 days I pull lists from:
+Every couple days I pull lists from:
 - Spamhaus (DROP & EDROP)
 - dShield  
 - blacklist.de (all.txt)
