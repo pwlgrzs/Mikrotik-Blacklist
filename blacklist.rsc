@@ -1,4 +1,4 @@
-# Generated on Thu Nov 22 00:33:06 CET 2018
+# Generated on Thu Nov 22 00:38:22 CET 2018
 /ip firewall address-list
 add list=blacklist address=100.36.113.254 comment=blacklist
 add list=blacklist address=100.37.253.46 comment=blacklist
@@ -3520,8 +3520,6 @@ add list=blacklist address=109.248.156.55 comment=blacklist
 add list=blacklist address=109.248.27.141 comment=blacklist
 add list=blacklist address=109.248.62.207 comment=blacklist
 add list=blacklist address=109.248.62.72 comment=blacklist
-add list=blacklist address=109.248.9.0 comment=blacklist
-add list=blacklist address=109.248.9.0 comment=blacklist
 add list=blacklist address=109.248.9.0/24 comment=blacklist
 add list=blacklist address=109.248.9.0/32 comment=blacklist
 add list=blacklist address=109.248.9.255/32 comment=blacklist
@@ -10574,8 +10572,6 @@ add list=blacklist address=176.53.58.46 comment=blacklist
 add list=blacklist address=176.57.208.192 comment=blacklist
 add list=blacklist address=176.57.74.174 comment=blacklist
 add list=blacklist address=176.59.45.90 comment=blacklist
-add list=blacklist address=176.61.136.0 comment=blacklist
-add list=blacklist address=176.61.136.0 comment=blacklist
 add list=blacklist address=176.61.136.0/21 comment=blacklist
 add list=blacklist address=176.61.136.0/22 comment=blacklist
 add list=blacklist address=176.62.179.88 comment=blacklist
@@ -23849,8 +23845,6 @@ add list=blacklist address=46.29.162.131 comment=blacklist
 add list=blacklist address=46.29.167.86 comment=blacklist
 add list=blacklist address=46.29.194.213 comment=blacklist
 add list=blacklist address=46.29.224.222 comment=blacklist
-add list=blacklist address=46.29.248.0 comment=blacklist
-add list=blacklist address=46.29.248.0 comment=blacklist
 add list=blacklist address=46.29.248.0/21 comment=blacklist
 add list=blacklist address=46.29.248.0/22 comment=blacklist
 add list=blacklist address=46.3.0.0/20 comment=blacklist
