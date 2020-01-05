@@ -1,4 +1,4 @@
-# Generated on Fri Jan  3 00:59:01 CET 2020
+# Generated on Fri Jan  3 01:01:52 CET 2020
 /ip firewall address-list
 add list=blacklist address=100.14.117.137 comment=blacklist
 add list=blacklist address=100.38.11.243 comment=blacklist
