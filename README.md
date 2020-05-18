@@ -5,7 +5,7 @@ Every couple days I pull lists from:
 - Spamhaus (DROP & EDROP)
 - dShield  
 - blacklist.de (all.txt)
-- EmergingThreats compromised IP
+- Feodo
 
 and reformat it to allow automatic import to MT routers.
 
