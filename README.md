@@ -13,7 +13,7 @@ and reformat it to allow automatic import to MT routers. This is automated proce
 Run following to your MT device with not less that 7d schedule (it's not updated more frequently anyway):  
 
 Download script:  
-`/tool fetch url="https://raw.githubusercontent.com/pwlgrzs/Mikrotik-Blacklist/master/blacklist.rsc" mode=https`  
+`/tool fetch url="https://raw.githubusercontent.com/Nels2/Mikrotik-Blacklist/master/blacklist.rsc" mode=https`  
 Install script:  
 `/ip firewall address-list remove [find where comment="blacklist"]; /import file-name=blacklist.rsc`
 
