@@ -1,4 +1,4 @@
-# Generated on Mon Dec  7 09:54:47 CET 2020
+# Generated on Mon Dec  7 10:20:46 CET 2020
 /ip firewall address-list
 add list=blacklist address=100.14.117.137 comment=blacklist
 add list=blacklist address=100.16.243.115 comment=blacklist
@@ -14160,7 +14160,6 @@ add list=blacklist address=173.161.87.170 comment=blacklist
 add list=blacklist address=173.164.81.21 comment=blacklist
 add list=blacklist address=173.165.121.157 comment=blacklist
 add list=blacklist address=173.171.46.32 comment=blacklist
-add list=blacklist address=173.173.254.105 comment=blacklist
 add list=blacklist address=173.186.120.181 comment=blacklist
 add list=blacklist address=173.206.12.170 comment=blacklist
 add list=blacklist address=173.209.171.24 comment=blacklist
@@ -19414,6 +19413,7 @@ add list=blacklist address=190.238.105.148 comment=blacklist
 add list=blacklist address=190.238.210.170 comment=blacklist
 add list=blacklist address=190.238.211.250 comment=blacklist
 add list=blacklist address=190.239.158.155 comment=blacklist
+add list=blacklist address=190.240.194.77 comment=blacklist
 add list=blacklist address=190.245.107.73 comment=blacklist
 add list=blacklist address=190.245.22.47 comment=blacklist
 add list=blacklist address=190.24.6.162 comment=blacklist
