@@ -21,7 +21,7 @@ You'll also need firewall rule:
 `/ip firewall filter add chain=input action=drop connection-state=new src-address-list=pwlgrzs-blacklist in-interface=IFNAME`  
 *Note: Replace IFNAME in-interface name with one you have configured*
 
-Check out more detailed instructions [here](https://pawelgrzes.pl/blog/mikrotik-blacklist).
+Check out more detailed instructions [here](https://pawelgrzes.pl/security/mikrotik-blocking-unwanted-connections-with-external-ip-list/).
 
 You can also import install.rsc file, it will do all of above for you.  
 Upload to MT and run `/import file-name=install.rsc` in terminal. You still need to manually add firewall rule.
