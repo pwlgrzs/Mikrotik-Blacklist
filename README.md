@@ -6,6 +6,7 @@ Every couple days I pull lists from:
 - dShield  
 - blacklist.de (all.txt)
 - Feodo
+- pfSense lists
 
 and reformat it to allow automatic import to MT routers. This is automated process so if you see errors in the final list open an issue please.
 
