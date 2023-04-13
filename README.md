@@ -10,6 +10,10 @@ Every couple days I pull lists from:
 
 and reformat it to allow automatic import to MT routers. This is automated process so if you see errors in the final list open an issue please.
 
+# READ THIS BEFORE GOING ANY FORWARD!
+
+As of April 2023 blocklist has almost 5MB, installing this on a device with low disk space, such as HeX PoE, may (and almost certainly will) cause issues such as inability to save other settings if disk is full. You have been warned.
+
 ## How to run this on MT
 Run following to your MT device with not less that 7d schedule (sources are not updated more frequently anyway):  
 
