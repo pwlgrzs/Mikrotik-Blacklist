@@ -28,9 +28,6 @@ You'll also need firewall rule:
 
 I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/posts/Mikrotik-Blocking-unwanted-connections-with-external-IP-list/).
 
-## TODO
- - Add more sources.
-
 ## Changelog:
  - 15.04.2023
    - Added light version of the list (without heavy pfSense sources) for small disk devices
@@ -38,3 +35,7 @@ I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/po
    - Installers now remove themselves
  - 12.04.2023
    - added pfSense sources (abuse, badguys, block)
+
+### TODO
+ - Add more sources.
+
