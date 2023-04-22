@@ -12,7 +12,7 @@ and reformat it to allow automatic import to MT routers. This is automated proce
 
 # READ THIS BEFORE GOING ANY FORWARD!
 
-As of April 2023 blocklist has almost 5MB, installing this on a device with low disk space, such as HeX PoE, may (and almost certainly will) cause issues such as inability to save other settings if disk is full.
+As of April 2023 blocklist has almost 5MB, installing this on a device with low disk space, such as HeX PoE, may (and almost certainly will) cause issues such as inability to save other settings if disk is full.  
 If you have a device with 16MB disk space I suggest you use a light version of the list, it's also being updated but without heavy pfSense sources.
 
 ## How to run this on MT
