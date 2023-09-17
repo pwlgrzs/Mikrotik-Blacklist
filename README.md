@@ -30,8 +30,11 @@ I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/po
 
 ## Changelog:
  - 17.09.2023
+   - added danger.rulez.sk bruteforceblocker as source
+   - added Tor exit nodes list
+ - 17.09.2023
    - pfSense sources removed due to permanent 404
-   - added FireHOL source for standard list
+   - added FireHOL abusers source for standard list
  - 15.04.2023
    - Added light version of the list (without heavy pfSense sources) for small disk devices
    - Added light version installer
