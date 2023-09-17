@@ -6,7 +6,7 @@ Every couple days I pull lists from:
 - dShield  
 - blacklist.de (all.txt)
 - Feodo
-- pfSense lists
+- FireHOL
 
 and reformat it to allow automatic import to MT routers. This is automated process so if you see errors in the final list open an issue please.
 
@@ -29,6 +29,9 @@ You'll also need firewall rule:
 I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/posts/Mikrotik-Blocking-unwanted-connections-with-external-IP-list/).
 
 ## Changelog:
+ - 17.09.2023
+   - pfSense sources removed due to permanent 404
+   - added FireHOL source for standard list
  - 15.04.2023
    - Added light version of the list (without heavy pfSense sources) for small disk devices
    - Added light version installer
