@@ -23,7 +23,5 @@ jobs:
         run: git add mikrotik-blacklist.rsc
       - name: commit changed files
         run: git commit -m "Auto updating mikrotik-blacklist.rsc"
-      - name: fetch from update-blacklist-action
-        run: git fetch update-blacklist-action 
       - name: push code to update-blacklist-action
         run: git push origin HEAD:update-blacklist-action
