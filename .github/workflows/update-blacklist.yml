@@ -1,6 +1,7 @@
 name: update-blacklist
 run-name: ${{ github.actor }} - updating blacklist
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 5 * * *'
 jobs:
