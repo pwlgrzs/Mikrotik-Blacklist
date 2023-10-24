@@ -1,0 +1,22 @@
+name: update-blacklist
+run-name: ${{ github.actor }} - updating blacklist
+on:
+  schedule:
+    - cron: '30 5 * * *'
+jobs:
+  RunBlockListUpdateScript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a one-line script
+        run:  ./blocklists-dl.sh
+      - name: check for changes
+        run: git status
+      - name: stage changed files
+        run: git add mikrotik-blacklist.rsc
+      - name: commit changed files
+        run: git commit -m "Auto updating mikrotik-blacklist.rsc"
+      - name: fetch from main
+        run: git fetch origin main
+      - name: push code to master
+        run: git push origin HEAD:main
