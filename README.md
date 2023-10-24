@@ -17,8 +17,7 @@ Block list is based on feed:
 
 # Read this document entirely before implementing!
 
-As of April 2023 blocklist has almost 5MB, installing this on a device with low disk space, such as HeX PoE, may (and almost certainly will) cause issues such as inability to save other settings if disk is full.  
-If you have a device with 16MB disk space I suggest you use a light version of the list, it's also being updated but without heavy sources. I am currently on testing this on devices with 256MB or larger disks.
+Installing this on a device with low disk space may (and almost certainly will) cause issues such as inability to save other settings if disk is full. I am currently on testing this on devices with 256MB or larger disks.
 
 ## How to run this on MT
 Run following to your MT device with not less that 7d schedule (sources are not updated more frequently anyway):  
@@ -27,10 +26,6 @@ Run following to your MT device with not less that 7d schedule (sources are not 
 2. In the Mikrotik terminal run: 
 ```
 /import install.rsc
-``` 
-or 
-```
-/import install-light.rsc
 ``` 
 3. Note: I've had to manually import the blocklist the first time over ssh. I have not come up with a root cause yet, but this does seem to only affect some versions of RouterOS 7 on the RB4011.
 
