@@ -22,7 +22,7 @@ Installing this on a device with low disk space may (and almost certainly will) 
 ## How to run this on MT
 Run following to your MT device with not less that 7d schedule (sources are not updated more frequently anyway):  
 
-1. Download install.rsc or install-light.rsc file and upload it to your device
+1. Download install.rsc file and upload it to your device
 2. In the Mikrotik terminal run: 
 ```
 /import install.rsc
