@@ -13,3 +13,5 @@ while read n; do
   echo "add list=mikrotik-blacklist address=$n" >> mikrotik-blacklist.rsc 
   i=$(($i+1)); 
 done <<< "$iplist"
+
+rm -f firehol_level1.netset
