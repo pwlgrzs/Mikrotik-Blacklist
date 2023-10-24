@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Create new branch
-        run: get checkout -b update-blacklist-action
+        run: git checkout -b update-blacklist-action
       - name: Run a one-line script
         run: ./blocklists-dl.sh
       - name: set github username
