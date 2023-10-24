@@ -9,15 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Create new branch
+        run: get checkout -b update-blacklist-action
       - name: Run a one-line script
-        run:  ./blocklists-dl.sh
+        run: ./blocklists-dl.sh
+      - name: set github username
+        run: git config user.name github-actions
+      - name: set github email
+        run: git config user.email github-actions@github.com
       - name: check for changes
         run: git status
       - name: stage changed files
         run: git add mikrotik-blacklist.rsc
       - name: commit changed files
         run: git commit -m "Auto updating mikrotik-blacklist.rsc"
-      - name: fetch from main
-        run: git fetch origin main
-      - name: push code to master
-        run: git push origin HEAD:main
+      - name: fetch from update-blacklist-action
+        run: git fetch update-blacklist-action 
+      - name: push code to update-blacklist-action
+        run: git push origin HEAD:update-blacklist-action
