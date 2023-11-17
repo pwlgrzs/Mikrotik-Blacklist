@@ -19,6 +19,8 @@ jobs:
         run: git config user.email github-actions@github.com
       - name: check for changes
         run: git status
+      - name: Pull
+        run: git pull
       - name: stage changed files
         run: git add mikrotik-blacklist.rsc
       - name: commit changed files
