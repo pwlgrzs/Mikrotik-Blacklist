@@ -32,5 +32,6 @@ jobs:
         with:
           commit-message: Auto updating mikrotik-blacklist.rsc
           title: 'Blacklist update'
+          delete-branch: true
           body: >
             This PR was auto-generated
