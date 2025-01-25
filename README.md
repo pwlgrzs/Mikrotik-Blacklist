@@ -29,6 +29,8 @@ You'll also need firewall rule:
 I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/posts/Mikrotik-Blocking-unwanted-connections-with-external-IP-list/).
 
 ## Changelog:
+ - 25.01.2023
+   - rewritten blacklist script due to potential issue with filesize.
  - 17.09.2023
    - added danger.rulez.sk bruteforceblocker as source
    - added Tor exit nodes list
