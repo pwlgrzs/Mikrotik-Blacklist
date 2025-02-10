@@ -23,8 +23,8 @@ Run following to your MT device with not less that 7d schedule (sources are not 
 3. Enjoy!
 
 You'll also need firewall rule:  
-`/ip firewall filter add chain=input action=drop connection-state=new src-address-list=pwlgrzs-blacklist in-interface=IFNAME`  
-*Note: Replace IFNAME in-interface name with one you have configured*
+`/ip firewall raw add chain=prerouting action=drop in-interface-list=WAN log=no log-prefix="" src-address-list=pwlgrzs-blacklist`  
+*Note: Replace WAN in in-interface-list with one you have configured*
 
 I sometimes add updates and notes about the list [here](https://pawelgrzes.pl/posts/Mikrotik-Blocking-unwanted-connections-with-external-IP-list/).
 
