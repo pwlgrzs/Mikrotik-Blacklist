@@ -1,6 +1,15 @@
 # Mikrotik-Blacklist
 This is a blocklist I use with on my Mikrotik router to block all connections from known spam/criminal/etc. networks.
 
+# Project announcement
+
+Good day people, because of personal stuff going on I cannot support this project further, it's already been going "on its own" or a while. I am leaving this as is (meaning the script will be pushing changes).
+I suggest moving to more actively developed lists.
+
+Sorry and thank you!
+
+-----------------------
+
 Every couple days I pull lists from:
 - Spamhaus (DROP & EDROP)
 - dShield  
